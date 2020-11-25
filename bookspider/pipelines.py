@@ -14,7 +14,6 @@ class BookspiderPipeline:
         return item
 
 
-
 class JsonWriterPipeline(object):
     def __init__(self):
         self.file = open('items.jl', 'w')

@@ -14,10 +14,5 @@ class BookspiderItem(scrapy.Item):
 
 class BookItem(scrapy.Item):
     title = scrapy.Field()
-    link = scrapy.Field()
-
-
-class BookChapterItem(scrapy.Item):
-    book = scrapy.Field()
-    title = scrapy.Field()
-    link = scrapy.Field()
+    chapter = scrapy.Field()
+    content = scrapy.Field()
